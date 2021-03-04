@@ -1,0 +1,329 @@
+Fields for apartments and rooms
+Listings List
+1. Realtor
+2. Title
+3. Address
+4. City
+5. State
+6. Zipcode
+7. Description
+8. Price
+9. Bedrooms
+10. Bathrooms
+11. SQFT
+12. Photo_main
+13. photo_1
+14. photo_2
+15. photo_3
+16. photo_4
+17. photo_5
+18. photo_6
+19. photo_7
+20. photo_8
+21. photo_9
+22. photo_10
+23. photo_11
+24. photo_12
+
+
+Amenities List
+1. Backyard // Yes / No
+2. Balcony // Yes / No
+3. Bathtub // Yes / No
+4. Bike Room // Yes / No
+5. Bike Storage  // Yes / No
+6. Pets Allowed // All / Yes / Cats / No
+7. Central A/c // Yes/ No
+8. Children's Playroom  // Yes / No
+9. Conceirge  // Yes / No
+10. Conference Room  // Yes / No
+11. Dishwasher  // Yes / No
+13. Doorman // Yes / Virtual / No
+14. Elevator  // Yes / No
+15. Furnished  // Yes / No
+16. Garden  // Yes / No
+17. Gym  // Yes / No
+18. Hardwood Flooring  // Yes / No
+19. Ice Maker  // Yes / No
+20. Laundry // In Building / In Unit / No
+22. Lobby // Yes / No
+23. Microwave // Yes / No
+24. No Fee // Yes / No
+25. Parking on-site / on-street / No
+27. Patio // Yes / No
+29. Private Outdoor Space // Yes / No
+30. Private Rooftop Deck // Yes / No
+31. Shared Outdoor Space // Yes / No
+32. Stainless Steel Appliances // Yes / No
+33. Storage // Private / Shared / Yes / No
+35. Swimming Pool // Yes / No
+36. Terrace // Yes / No
+37. Valet: Dry Cleaning / Parking / No
+
+Group all of these into a few different categories and crate Zillow liek refined search area feature
+
+Add amenties lists into individual rental and room html below the listing card
+
+
+Add refine search option to include amenties lists inside of rentals and rooms.html pages
+
+Add amenties lists to bottom of rental and room .html cards
+
+<div class="col-6">
+                    <i class="fas fa-bed"></i> Bedrooms: 3
+                  </div>
+
+
+<i class="fas fa-th-large"></i> Sqft: 3200
+
+<i class="fas fa-bath"></i> Bathrooms: 2
+
+
+
+
+
+   <header id="page-header" class="page-header">
+      <div class="page-header-overlay">
+        <div class class="jumbotron">
+          <div class="container banner-content">
+            <div class="row">
+              <div class="col-md-6 text-white">
+                <span>CRIBS NYC</span>
+                <h1>Find Your Home</h1>
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
+                laboriosam?
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="#" class="btn-one">Learn More</a>
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="#" class="btn-two">View Rentals</a>
+              </div>
+              <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
+                <a href="#" class="btn-one">View Rooms</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+   position: relative;
+  width: 100vw;
+  height: 90vh;
+  min-height: 100%;
+  margin: auto;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/cribs-showcase.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* .page-header:hover img {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(2px);
+  transition: ease-in 0.5s;
+  z-index: 0;
+  overflow: hidden;
+} */
+.banner-content {
+  position: relative;
+  margin-top: 500px;
+  left: 0;
+  z-index: 10;
+}
+
+.page-header span {
+  position: relative;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  z-index: 10;
+}
+.page-header h1,
+.page-header .h1 {
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-size: 72px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  z-index: 10;
+}
+.page-header p {
+  position: relative;
+  margin-bottom: 75px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-style: italic;
+  font-weight: 400;
+}
+.page-header a {
+  text-decoration: none;
+  margin-right: 50px;
+  position: relative;
+}
+.page-header .btn-one {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.page-header .btn-one:hover {
+  background-color: #0092cb;
+  transition: ease-in 0.5s;
+}
+.page-header .btn-two {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.page-header .btn-two:hover {
+  background-color: #0092cb;
+  transition: ease-in 0.5s;
+}
+.page-header .btn-three {
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.page-header .btn-three:hover {
+  background-color: #0092cb;
+  transition: ease-in 0.5s;
+}
+
+
+		<div id="hFeaturedP-inner">
+			<div id="featuredProperties-carousel" class="carousel slide" data-ride="fp-carousel">
+				<div id="featuredProp-dots"><div class="carousel-inner-content"><ol class="carousel-indicators"><li data-target="#featuredProperties-carousel" data-slide-to="0" class="active"></li><li data-target="#featuredProperties-carousel" data-slide-to="1"></li><li data-target="#featuredProperties-carousel" data-slide-to="2"></li><li data-target="#featuredProperties-carousel" data-slide-to="3"></li><li data-target="#featuredProperties-carousel" data-slide-to="4"></li></ol><h2>NOW LEASING</h2></div></div>					
+					<div class="carousel-inner active">
+														<div class="item fp-item active">
+									<div class="item-inner fp-item-inner">
+										<div class="fpentry-images">
+											<div class="fpentry-img">
+												<img alt="Bevel" src="https://myspacenyc.com/wp-content/uploads/2020/02/NewBevel-1030x687.jpg">
+											</div>
+										</div>
+
+										<div class="fpentry-content">
+											<div class="carousel-inner-content">
+												<h4>LONG ISLAND CITY</h4>
+<h3>Bevel <span>42-20 27th Street</span></h3>
+<h4>Luxury embodied by an imaginative fusion of industrial and modern aesthetics</h4>												<a class="button fpentry-button" href="https://myspacenyc.com/now_leasing/bevel/">
+													SEE AVAILABILITIES
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+														<div class="item fp-item">
+									<div class="item-inner fp-item-inner">
+										<div class="fpentry-images">
+											<div class="fpentry-img">
+												<img alt="The Rheingold" src="https://myspacenyc.com/wp-content/uploads/2020/02/The-Rheingold-Homepage-1030x687.jpg">
+											</div>
+										</div>
+
+										<div class="fpentry-content">
+											<div class="carousel-inner-content">
+												<h4>Bushwick</h4>
+<h3>The Rheingold <span>10 Montieth Street</span></h3>
+<h4>An historic site with distinctive modern flair</h4>												<a class="button fpentry-button" href="https://myspacenyc.com/now_leasing/the-rheingold/">
+													SEE AVAILABILITIES
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+														<div class="item fp-item">
+									<div class="item-inner fp-item-inner">
+										<div class="fpentry-images">
+											<div class="fpentry-img">
+												<img alt="Clover House" src="https://myspacenyc.com/wp-content/uploads/2020/02/NewCloverHouse-1030x687.jpg">
+											</div>
+										</div>
+
+										<div class="fpentry-content">
+											<div class="carousel-inner-content">
+												<h4>BROOKLYN HEIGHTS</h4>
+<h3>Clover House <span>107 Columbia Heights</span></h3>
+<h4>Full-service luxury opposite the Brooklyn Heights Promenade</h4>												<a class="button fpentry-button" href="https://myspacenyc.com/now_leasing/clover-house/">
+													SEE AVAILABILITIES
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+														<div class="item fp-item">
+									<div class="item-inner fp-item-inner">
+										<div class="fpentry-images">
+											<div class="fpentry-img">
+												<img alt="Denizen Bshwk" src="https://myspacenyc.com/wp-content/uploads/2020/02/Denizen-Homepage-1030x687.jpg">
+											</div>
+										</div>
+
+										<div class="fpentry-content">
+											<div class="carousel-inner-content">
+												<h4>BUSHWICK</h4>
+<h3>Denizen Bshwk <span>54 Noll Street and 123 Melrose Street</span></h3>
+<h4>Unparalleled amenities and fun in Brooklyn's hippest neighborhood</h4>												<a class="button fpentry-button" href="https://myspacenyc.com/now_leasing/denizen-bshwk/">
+													SEE AVAILABILITIES
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+														<div class="item fp-item">
+									<div class="item-inner fp-item-inner">
+										<div class="fpentry-images">
+											<div class="fpentry-img">
+												<img alt="1209 DeKalb Avenue" src="https://myspacenyc.com/wp-content/uploads/2020/02/1209-DeKalb-Homepage-1030x687.jpg">
+											</div>
+										</div>
+
+										<div class="fpentry-content">
+											<div class="carousel-inner-content">
+												<h4>BUSHWICK</h4>
+<h3>1209 DeKalb Avenue</h3>
+<h4>Studios, 1 Bedrooms and 2 Bedrooms Available</h4>												<a class="button fpentry-button" href="https://myspacenyc.com/now_leasing/1209-dekalb-avenue/">
+													SEE AVAILABILITIES
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+											</div> 
+					<a class="right carousel-control" href="#featuredProperties-carousel" data-slide="next">
+						<span class="fa fa-caret-right"></span>
+						<span class="sr-only">Next</span>
+					</a>		
+												</div>
+		</div> <!-- hFeaturedP inner -->
+	

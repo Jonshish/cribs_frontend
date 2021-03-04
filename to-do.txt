@@ -1,0 +1,16 @@
+Values:
+
+Honesty - chat-quote-fill
+
+Trust - asterisk
+
+Seamlessness cpu-fill
+
+Selfnessless heart-fill
+
+Committment lock-fill
+
+Service 
+
+rgba(0, 146, 202, 0.8)
+
